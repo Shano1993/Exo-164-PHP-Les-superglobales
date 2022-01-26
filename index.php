@@ -7,3 +7,15 @@
  * 3. Uploadez ce projet sur votre serveur et testez !
  */
 // TODO Votre code ici
+
+echo $_SERVER['SERVER_NAME'] . "<br>";
+
+echo $_SERVER['DOCUMENT_ROOT'] . "<br>";
+
+echo $_SERVER['PHP_SELF'] . "<br>";
+
+echo $_SERVER['REMOTE_ADDR'] . "<br>";
+
+echo $_SERVER['HTTP_USER_AGENT'] . "<br>";
+
+echo $_SERVER['HTTP_REFERER'] . "<br>";
